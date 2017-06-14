@@ -92,7 +92,7 @@ $(document).ready(function(){
     slidesToShow: 1,
     centerMode: true,
     variableWidth: true,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 2000
   });
 });
