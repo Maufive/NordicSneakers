@@ -13,6 +13,11 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: #192D35;
+}
+
 /* HEADER */
 
 .header {
@@ -26,7 +31,6 @@ ul {
 
   z-index: 1;
   position: fixed;
-  background: #192D35;
   top: 0;
   width: 100%;
 }
@@ -119,7 +123,33 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 15vh;
+  margin-top: 10vh;
+}
+
+.welcome {
+  background: linear-gradient(to right, #E76F51, #F4934E);
+  height: 40vh;
+  color: #fff;
+}
+
+.frolf {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10vw;
+  text-align: left;
+}
+
+.one {
+  width: 40vw;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.two {
+
 }
 
 .carousel {
@@ -169,7 +199,7 @@ ul {
 
 .main h1 {
   font-size: 2.5rem;
-  color: #E76F51;
+  color: #c;
 }
 
 .columns {
@@ -345,11 +375,11 @@ ul {
 
 .footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   height: 40vh;
   width: 100%;
-  background: #192D35;
+  background: linear-gradient(to right, #E76F51, #F4934E);
 }
 
 .box {
@@ -362,24 +392,71 @@ ul {
 }
 
 .footer .infoBox {
-
   justify-content: center;
   align-items: center;
-  height: 70%;
-  width: 500px;
-
+  width: 30vw;
 }
 
 .footer .contact {
   justify-content: flex-start;
   align-items: center;
-  width: 400px;
+  width: 25vw;
   text-align: center;
+}
+
+.footer .contact ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  color: #192D35;
+  background: rgba(255, 255, 255, 0.2);
+
+}
+
+.footer .contact ul li {
+  margin: 1vh;
+  border-radius: 5px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.footer .contact ul li i {
+  font-size: 1rem;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.footer .contact ul li a {
+  margin: 0 20px;
+}
+
+
+.footer .contact ul li a:hover {
+  color: #E76F51;
+}
+
+.footer .links {
+  width: 25vw;
 }
 
 /* END OF FOOTER */
 
 
+.fa-facebook {
+  color: #3B5998;
+}
+
+.fa-envelope {
+  color: #dd4b39;
+}
+
+.fa-github {
+  color: #000;
+}
 
 
 
